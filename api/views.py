@@ -1,4 +1,5 @@
 from django.http.response import JsonResponse
+from rest_framework.response import Response
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.decorators import (
@@ -14,6 +15,61 @@ import logging
 
 # file handler defined in settings.py
 logger = logging.getLogger(__name__)
+
+
+@api_view(["GET"])
+def getRoutes(request):
+
+    routes = [
+        {
+            "Endpoint": "/movies/<city>",
+            "method": "GET",
+            "body": None,
+            "description": "Return the movies in the city",
+        },
+        {
+            "Endpoint": "shows/<movie_name>/<city_name>",
+            "method": "GET",
+            "body": None,
+            "description": "Return the shows playing in the city for a movie",
+        },
+        {
+            "Endpoint": "/book",
+            "method": "POST",
+            "authorization header": "Token <token-value>",
+            "body": {
+                "city_name": "city_name",
+                "movie_name": "movie_name",
+                "theatre_name": "theatre_name",
+                "show_name": "show_name",
+                "ticket_nos": "ticket_nos",
+            },
+            "description": "Book a ticket for a show in a theatre",
+        },
+        {
+            "Endpoint": "/dj-rest-auth/login/",
+            "method": "POST",
+            "body": {"username": "username", "password": "password"},
+            "description": "Login",
+        },
+        {
+            "Endpoint": "/dj-rest-auth/logout/",
+            "method": "POST",
+            "body": None,
+            "description": "Logout",
+        },
+        {
+            "Endpoint": "/dj-rest-auth/registration/",
+            "method": "POST",
+            "body": {
+                "username": "username",
+                "password1": "password",
+                "password2": "password",
+            },
+            "description": "User registration",
+        },
+    ]
+    return Response(routes)
 
 
 @api_view(["GET"])

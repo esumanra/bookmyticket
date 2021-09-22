@@ -1,0 +1,27 @@
+WARNING-2021-09-21 20:52:25,765-log-log_response-Bad Request: /dj-rest-auth/login/
+ERROR-2021-09-21 20:52:53,953-views-book_ticket-The requested show cannot be booked `hyderabad Uppena AMB1 Morning`
+WARNING-2021-09-21 20:53:13,661-log-log_response-Unauthorized: /book
+INFO-2021-09-22 15:46:57,664-autoreload-run_with_reloader-Watching for file changes with StatReloader
+WARNING-2021-09-22 15:47:01,214-log-log_response-Bad Request: /dj-rest-auth/registration/
+INFO-2021-09-22 15:47:11,292-views-list_movies_by_city-`Secunderabad` city is not availabe
+DEBUG-2021-09-22 15:49:06,537-proactor_events-__init__-Using proactor: IocpProactor
+DEBUG-2021-09-22 15:49:06,632-proactor_events-__init__-Using proactor: IocpProactor
+INFO-2021-09-22 15:50:48,616-autoreload-run_with_reloader-Watching for file changes with StatReloader
+WARNING-2021-09-22 15:50:49,690-log-log_response-Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING-2021-09-22 15:50:49,691-log-log_response-Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING-2021-09-22 15:50:49,693-log-log_response-Not Found: /static/rest_framework/css/prettify.css
+WARNING-2021-09-22 15:50:49,696-log-log_response-Not Found: /static/rest_framework/css/default.css
+WARNING-2021-09-22 15:50:49,698-log-log_response-Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING-2021-09-22 15:50:49,702-log-log_response-Not Found: /static/rest_framework/js/ajax-form.js
+WARNING-2021-09-22 15:50:49,704-log-log_response-Not Found: /static/rest_framework/js/csrf.js
+WARNING-2021-09-22 15:50:49,708-log-log_response-Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING-2021-09-22 15:50:49,710-log-log_response-Not Found: /static/rest_framework/js/prettify-min.js
+WARNING-2021-09-22 15:50:49,713-log-log_response-Not Found: /static/rest_framework/js/default.js
+WARNING-2021-09-22 15:50:49,836-log-log_response-Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING-2021-09-22 15:50:49,844-log-log_response-Not Found: /static/rest_framework/js/ajax-form.js
+WARNING-2021-09-22 15:50:49,852-log-log_response-Not Found: /static/rest_framework/js/csrf.js
+WARNING-2021-09-22 15:50:49,859-log-log_response-Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING-2021-09-22 15:50:49,866-log-log_response-Not Found: /static/rest_framework/js/prettify-min.js
+WARNING-2021-09-22 15:50:49,875-log-log_response-Not Found: /static/rest_framework/js/default.js
+DEBUG-2021-09-22 15:59:55,937-proactor_events-__init__-Using proactor: IocpProactor
+DEBUG-2021-09-22 15:59:56,038-proactor_events-__init__-Using proactor: IocpProactor

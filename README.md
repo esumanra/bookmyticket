@@ -9,6 +9,7 @@
 ### Project Tasks
 - Only authenticated user can book a ticket
 - Added logging
+- Added Unit tests - */api/tests.py*
 - CI pipeline
 - CD pipeline with Azure
 
